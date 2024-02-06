@@ -5,12 +5,24 @@ return {
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-		priority = 1000,
+		priority = 500,
 	},
 	{
 		"olimorris/onedarkpro.nvim",
-		priority = 1000,
+		priority = 500,
 	},
+
+  -- base16 colorscheme
+  {
+    "RRethy/nvim-base16",
+    priority = 500,
+  },
+
+  -- github colorscheme
+  { 'projekt0n/github-nvim-theme' },
+
+  -- VSCode Dark+
+  { 'tomasiser/vim-code-dark' },
 
 	-- color html colors
 	{
