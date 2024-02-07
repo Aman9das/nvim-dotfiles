@@ -8,7 +8,7 @@ return {
     },
     opts = {
       backend = "ollama",
-      model = "neural-chat:latest",
+      model = "deepseek-coder:6.7b",
       theme_file = "/var/home/aman/.cache/oatmeal/base16-tomorrow-night.tmTheme",
     },
   },
